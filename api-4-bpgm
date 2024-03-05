@@ -5,8 +5,20 @@ $pais = [
 "capital" =>"Brasilia"
 "moneda" =>"Real"
 "comida tipica" =>"acaraje"
+"bebida tipica" => "caipirinha"
 "musica tradicional" =>"Samba"
 "vestimenta" =>"tela de raso"
+"poblacion" => 214.3,
+"estados" => 26,
+"himno" => "hino nacional brasileiro"
+"baile representativo" => "samba"
+"animal representativo" => "jaguar"
+"flor representativa" => "lapacho"
+"fiesta oficial" => "7 de septiembre"
+"presidente" => "Luiz Inacio Lula Silva"
+"lema" => "Ordem e Progresso"
+"nivel economico" => "bajo"
+"clima" => "tropical"
 
 ];
 
@@ -16,8 +28,20 @@ $pais = [
 "capital" => "paris"
 "moneda" => "euro"
 "comida tipica" => "ratatouille"
+"bebida tipica" => "pastis"
 "musica tradicional" => "chanson"
 "vestimenta" => "traje watteau"
+"poblacion" => 67.75,
+"estados" => 13,
+"himno" => la marsellesa"
+"baile representativo" => "bacchu-ber"
+"flor representativa" => "flor de lis"
+"animal representativo" => "gallo"
+"fiesta oficial" => "14 de julio"
+"presidente" => "Emmanuel Macron"
+"lema" => "Libertad, Igualdad, Fraternidad"
+"nivel economico" => "alto"
+"clima" => "frio"
 
 ];
 
@@ -27,8 +51,20 @@ $pais = [
 "capital" => "pekin"
 "moneda" => "yuan"
 "comida tipica" => "pato a la pekinesa"
+"bebida tipica" => "baiju"
 "musica tradicional" => "mandopop"
 "vestimenta" => "hanfu"
+"poblacion" => 1.412,
+"estados" => 23,
+"himno" => "hong kong macao"
+"baile representativo" => "danza del dragon"
+"animal representativo" => "dragon"
+"flor representativa" => "paeonia Suffruticosa"
+"fiesta oficial" => "1 de octubre"
+"presidente" => "Xi Jinping"
+"lema" => "Levantaos aquellos que rehusan ser esclavos"
+"nivel economico" => "alto"
+"clima" => "frio"
 
 ];
 
@@ -37,9 +73,21 @@ $pais = [
 "lengua oficial" => "ingles"
 "capital" => "canberra"
 "moneda" => "dolares"
-"comida titpica" => "vegemite"
+"comida tipica" => "vegemite"
+"bebida tipica" => "limonada"
 "musica tradicional" => "waltzing matilda"
 "vestimenta" => "larriki"
+"poblacion" => 25.69,
+"estados" => 6,
+"himno" => "advance australia fair"
+"baile representativo" => "lakalaka"
+"flor representativa" => "Acacia pycnatha"
+"animal representativo" => "dingo"
+"fiesta oficial" => "26 de enero"
+"presidente" => "Anthony Norman"
+"lema" => "Avanza Australia"
+"nivel economico" => "alto"
+"clima" => "templado e invertido"
 
 ];
 echo json_enconde($pais);
