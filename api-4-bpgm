@@ -1,0 +1,45 @@
+<?php
+$pais = [
+"nombre oficial" =>"republica federativa de brasil"
+"Lengua Oficial" =>"portugues"
+"capital" =>"Brasilia"
+"moneda" =>"Real"
+"comida tipica" =>"acaraje"
+"musica tradicional" =>"Samba"
+"vestimenta" =>"tela de raso"
+
+];
+
+$pais = [
+"nombre oficial" =>"republica francesa"
+"lengua oficial" =>"frances"
+"capital" => "paris"
+"moneda" => "euro"
+"comida tipica" => "ratatouille"
+"musica tradicional" => "chanson"
+"vestimenta" => "traje watteau"
+
+];
+
+$pais = [
+"nombre oficial" => "zhonghua renmin gongheguo"
+"lengua oficial" => "mandarin"
+"capital" => "pekin"
+"moneda" => "yuan"
+"comida tipica" => "pato a la pekinesa"
+"musica tradicional" => "mandopop"
+"vestimenta" => "hanfu"
+
+];
+
+$pais = [
+"nombre oficial" => "comunidad de australia"
+"lengua oficial" => "ingles"
+"capital" => "canberra"
+"moneda" => "dolares"
+"comida titpica" => "vegemite"
+"musica tradicional" => "waltzing matilda"
+"vestimenta" => "larriki"
+
+];
+echo json_enconde($pais);
